@@ -1,0 +1,21 @@
+from tkinter import *
+
+class UserInterface(Frame):
+    def __init__(self,master=None):
+        Frame.__init__(self,master)
+        self.grid()
+        self.createWidgets()
+        #self.__UserInterface=Tk()
+        #firstFrame=Frame(self.__interface)
+        #changes background color to green
+        #congifure(background="green")
+
+    def createWidgets(self):
+        self.startButton=Button(self,text="Start Game",command.self.start)
+        self.
+        self.quitButton=Button(self,text="Quit",command=self.quit)
+        self.quitButton.grid()
+
+Ai=UserInterface()
+Ai.master.title("BlackHack Application")
+Ai.mainloop()
